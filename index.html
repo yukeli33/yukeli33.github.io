@@ -33,15 +33,13 @@
             color: black;
         }
         section {
-            padding: 0px 60px;
-            padding-top: 1cm;
+            padding: 10px 60px;
+            padding-top: 60px;
         }
         .container {
             width: 80%;
             margin: 0 auto;
             line-height: 1.6; /* Increased line spacing */
-            padding-top: 80px; /* Added padding to push the introduction down */
-
         }
         .footer {
             background-color: #333;
@@ -55,7 +53,7 @@
             float: left;
             margin-right: 20px;
             margin-bottom: 20px;
-            margin-top: 25px; /* Moved further down */
+            margin-top: 20px; /* Moved further down */
             border-radius: 50%;
             width: 200px; /* Enlarged profile picture */
         }
@@ -65,6 +63,9 @@
         }
         .container li {
             margin-bottom: 10px;
+        }
+        .reduced-spacing {
+            padding-top: 0.5cm; /* Adjusts the top padding to 1cm */
         }
     </style>
 </head>
@@ -86,7 +87,7 @@
         <div style="clear: both;"></div> <!-- Clear the float -->
     </section>
 
-    <section id="research-interests" class="container">
+    <section id="research-interests" class="container reduced-spacing">
         <h2>Research Interests</h2>
         <p>My research interests include network games and dynamics, machine learning and AI, and their applications in international relations or security.</p>
     </section>
