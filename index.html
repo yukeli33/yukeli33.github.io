@@ -1,107 +1,95 @@
-<<<<<<< HEAD
-<! DOCTYPE html>
-<html>
-<body>
-<h1> Hello World</h1>
-<p>I am hosted with GitHub Pages.</p>
-</body>
-</html>
-=======
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me - Publications</title>
+    <title>Your Name - Academic Portfolio</title>
     <style>
-        /* Add your CSS styles here */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f7f7f7;
+            position: relative;
         }
         .header {
             background-color: #333;
-            color: #ffffff;
-            text-align: center;
+            color: white;
             padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
         }
-        .nav {
-            background-color: #555;
-            color: #ffffff;
-            padding: 10px 0;
+        .header a {
+            color: white;
+            padding: 14px 25px;
             text-align: center;
-        }
-        .nav a {
-            color: #ffffff;
             text-decoration: none;
-            padding: 0 15px;
+            display: inline-block;
         }
-        .main-content {
-            margin: 15px;
-            padding: 20px;
-            background-color: #ffffff;
+        .header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 60px;
+            padding-top: 100px; /* Adjusted to account for the fixed header */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
         }
         .footer {
             background-color: #333;
-            color: #ffffff;
+            color: white;
             text-align: center;
             padding: 10px 0;
-            position: relative;
+            position: fixed;
             bottom: 0;
             width: 100%;
-        }
-        .publication {
-            margin-bottom: 15px;
-        }
-        .publication-title {
-            font-weight: bold;
-        }
-        .publication-details {
-            font-style: italic;
         }
     </style>
 </head>
 <body>
+
     <div class="header">
-        <h1>About Me</h1>
-    </div>
-    <div class="nav">
-        <!-- Update navigation links as needed -->
-        <a href="#about">Introduction</a>
+        <a href="#self-introduction">Introduction</a>
+        <a href="#research-interests">Research Interests</a>
         <a href="#publications">Publications</a>
         <a href="#contact">Contact</a>
     </div>
-    <div class="main-content">
-        <section id="about">
-            <h2>Introduction</h2>
-            <p>Hello! I'm [Your Name], and I'm a [Your Profession]. Welcome to my personal website where I share my work and thoughts.</p>
-            <!-- Add more about yourself here -->
-        </section>
 
-        <section id="publications">
-            <h2>Publications</h2>
-            <!-- List your publications here -->
-            <div class="publication">
-                <p class="publication-title">Title of Publication One</p>
-                <p class="publication-details">Authors, Journal, Year</p>
-                <p>Short description of the publication or the research it involves.</p>
-            </div>
-            <div class="publication">
-                <p class="publication-title">Title of Publication Two</p>
-                <p class="publication-details">Authors, Journal, Year</p>
-                <p>Short description of the publication or the research it involves.</p>
-            </div>
+    <section id="self-introduction" class="container">
+        <h2>Self Introduction</h2>
+        <p>Yuke Li received her Bachelor’s degree in Philosophy, Politics, and Economics from Peking University in 2011, followed by a Ph.D. degree in Political Science from Yale University in 2018. She has since pursued postdoctoral training at Yale Department of Electrical Engineering on a US Army Research Office grant (2019) and at the Westlake Institute for Advanced Study during the pandemic. Her research interests are in  two main areas: game theory, multi-agent systems, and their applications in international relations, as well as Chinese foreign policy. She has published her work in top venues, including Automatica, Communications in Nonlinear Science and Numerical Simulation, and the World Economic Forum Agenda. In her free time, she collaborates with the team of Yang Lan, China's renowned television host and ambassador for Beijing's bid for the 2008 Olympic Games, organizing dialogues among distinguished figures from academia, business, and politics to promote mutual understanding between China and the rest of the world. After the pandemic, she visited the Oxford China Center and is currently at Yale University.  
+</p>
+    </section>
+
+    <section id="research-interests" class="container">
+        <h2>Research Interests</h2>
+        <p>My research interests include network games and dynamics, machine learning and AI, and their applications in international relations or security. 
+.</p>
+    </section>
+
+    <section id="publications" class="container">
+        <h2>Publications</h2>
+        <ul>
+            <!-- List publications here -->
+            <li><strong> Nash-Equilibrium Seeking Algorithm for Power Allocation Games on Networks of International Relations.</strong> C. Zhang, Y. Li, and W. Mei. Proceedings of the 62nd IEEE Conference on Decision and Control, 2023, Forthcoming. <a href="#">[Link to publication]</a></li>
+            <li><strong>Title of Publication Two.</strong> Author Name. Journal Name, Year. <a href="#">[Link to publication]</a></li>
             <!-- Add more publications as needed -->
-        </section>
+        </ul>
+    </section>
 
-        <!-- Add other sections as needed -->
-    </div>
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>For any professional inquiries, please contact me at <a href="mailto:yukeli@aya.yale.edu”>yukeli@aya.yale.edu</a>.</p>
+    </section>
+
     <div class="footer">
-        <p>Connect with me on [LinkedIn/Twitter/etc.] or send an email to [Your Email]</p>
+        <p>&copy; [2023] [Yuke Li]. All Rights Reserved.</p>
     </div>
+
 </body>
 </html>
-
->>>>>>> origin/main
